@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/Login-page/styles.css">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <div class="container">
         <div class="left">
          <div class="log-in">
+            <div class="logo">
+                <img src="https://image.ibb.co/hW1YHq/login-logo.png" alt="Sluralpright" />
+              </div>
             <form>
-            <label for="username">Email or Username</label>
-            <input type="text">
-            <label for="password">Password</label>
-            <input type="text">
-            <button id="sign-In">Sign In</button>
+                <div class="username">
+            <label for="username" id="username">Email or Username</label>
+            <input type="text" id="username">
+                 </div>
+                 <div class="password">
+            <label for="password" id="password">Password</label>
+            <input type="text" id="password">
+        </div>
+            <button id="submit">Sign In</button>
         </form>
         <div class="links">
             <a href="#">Forgot Password</a>
@@ -27,7 +34,7 @@
             <span>OR</span>
             <hr class="bar" />
          </div>
-         <div class="create-Account secondary-btn">Create an Account</div>
+         <a class="create-Account secondary-btn" href="#">Create an Account</a>
         </div>
           </div>
         <div class="right">
